@@ -1,8 +1,8 @@
-import type { CartItem, ListResult } from 'swell-js';
+import type { CartItem, ListResult } from "swell-js";
 
-import { getPrice } from '@/utils/product';
+import { getPrice } from "@/utils/product";
 
-import OrderSummaryItem from './order_summary_item';
+import OrderSummaryItem from "./order_summary_item";
 
 export default function OrderSummary({
   items,
@@ -52,7 +52,7 @@ export default function OrderSummary({
         <div className="space-y-2">
           <p className="flex justify-between text-sm  text-black">
             <span>Subtotal</span>
-            <span>{getPrice(sub_total, 'AUD')}</span>
+            <span>{getPrice(sub_total, "AUD")}</span>
           </p>
           <p className="flex justify-between text-sm  text-black">
             <span>Shipping</span>
@@ -60,7 +60,7 @@ export default function OrderSummary({
           </p>
           <p className="flex justify-between text-sm  text-black">
             <span>Discount</span>
-            <span>({getPrice(discount_total, 'AUD')})</span>
+            <span>({getPrice(discount_total, "AUD")})</span>
           </p>
           <hr />
 
@@ -80,10 +80,10 @@ export default function OrderSummary({
             <div>
               Total
               <span className="block text-xs font-light">
-                including {getPrice(tax_total, 'AUD')} in taxes
+                including {getPrice(tax_total, "AUD")} in taxes
               </span>
             </div>
-            <span>{getPrice(grand_total, 'AUD')}</span>
+            <span>{getPrice(grand_total, "AUD")}</span>
           </div>
         </div>
       </div>
