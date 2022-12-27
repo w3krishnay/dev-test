@@ -6,7 +6,7 @@ describe('Navigation', () => {
 
       // The index page should contain an h1
       cy.findByRole('heading', {
-        name: 'checkout code for your Nextjs project with Tailwind CSS',
+        name:/checkout dev test\(next js\)/i,
       });
 
       // Find a link containing "About" text and click it
@@ -27,7 +27,7 @@ describe('Navigation', () => {
 
       // Wait until the page is displayed
       cy.findByRole('heading', {
-        name: 'checkout code for your Nextjs project with Tailwind CSS',
+        name: /checkout dev test\(next js\)/i,
       });
 
       cy.percySnapshot('Homepage');
@@ -40,6 +40,15 @@ describe('Navigation', () => {
       cy.findByRole('link', { name: 'About' });
 
       cy.percySnapshot('About');
+    });
+
+    it('should take screenshot of the Login page', () => {
+      cy.visit('/login');
+
+      // Wait until the page is displayed
+      cy.findByRole('heading', {  name: /login/i});
+
+      cy.percySnapshot('Login');
     });
   });
 });
