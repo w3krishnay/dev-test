@@ -31,11 +31,10 @@ export default function CheckoutForm({
         <div className="relative pb-5">
           <input
             type="text"
-            name="mail"
+            name="email"
             className="mt-3 h-9 w-full rounded border px-2 text-xs placeholder:text-zinc-500 focus:border-gray-500 focus:outline-none"
-            placeholder="E-mail"
+            placeholder="loggedEmail"
             value={user?.email || ""}
-            readOnly
           />
           <span
             className="absolute right-2 top-5 text-xs font-medium text-blue-500 cursor-pointer"
@@ -94,18 +93,18 @@ export default function CheckoutForm({
             <Form>
               <AddressList list={addressList.results} />
               <div className="py-4 px-2 flex items-center border-gray-300 border-2 rounded-b">
+                <label className="text-xs">
                 <Field
                   type="radio"
                   name="checkout_address"
-                  className="h-3 w-3 border-gray-300"
+                  className="h-3 w-3 border-gray-300 mr-4"
                   value={"selected:0"}
                 />
-                <label className="ml-4 text-xs">
                   Continue with a new Shipping Address
                 </label>
               </div>
               {selected === "selected:0" && (
-                <>
+                <div data-testid="address_form">
                   <div className="grid md:grid-cols-2 md:gap-2">
                     <div>
                       <Field
@@ -218,7 +217,7 @@ export default function CheckoutForm({
                     component="div"
                     className="text-xs text-red-600"
                   />
-                </>
+                </div>
               )}
               <div className="flex items-center justify-between pt-2 mt-4">
                 <button
