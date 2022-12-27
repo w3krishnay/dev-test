@@ -7,6 +7,7 @@ import { Formik, ErrorMessage, Field } from "formik";
 import Showlog from "@/utils/logger";
 import swell from "swell-js";
 import Router from "next/router";
+import Link from "next/link";
 
 const Login:React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -19,7 +20,7 @@ const Login:React.FC = () => {
   const validateEmail = (email: string) => {
     try {
       if (!email) {
-        return "Required";
+        return "Email Required";
       } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
         return "Invalid email address";
       }
@@ -31,7 +32,7 @@ const Login:React.FC = () => {
   const validatePassword = (password: string) => {
     try {
       if (!password) {
-        return "Required";
+        return "Password Required";
       }
     } catch (error) {
       Showlog("Password Validation error(login.tsx):", error);
@@ -64,7 +65,7 @@ const Login:React.FC = () => {
     <Main
       meta={
         <Meta
-          title="Next.js Checkout"
+          title="Login"
           description="Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla porttitor accumsan tincidunt."
         />
       }
@@ -100,25 +101,29 @@ const Login:React.FC = () => {
                     autoComplete="off"
                     className=" h-12 w-full rounded border px-2 text-sm focus:border-gray-500 focus:outline-none my-2"
                     validate={validateEmail}
+                    placeholder={"Email"}
                   />
                   <ErrorMessage
                     name="email"
                     component="div"
                     className="text-xs text-red-600"
                   />
-                  <label htmlFor="email">Password</label>
+                  <label htmlFor="password">Password</label>
                   <Field
                     type="password"
                     name="password"
                     autoComplete="off"
                     className=" h-12 w-full rounded border px-2 text-sm focus:border-gray-500 focus:outline-none my-2"
                     validate={validatePassword}
+                    placeholder={"Password"}
                   />
                   <ErrorMessage
                     name="password"
                     component="div"
                     className="text-xs text-red-600"
+                    data-test="login-password-error"
                   />
+                  <Link href="/forgotPassword" className="text-sm text-blue-600 block font-semibold my-2 cursor-pointer">Forgot Password</Link>
                   <button
                     type="submit"
                     disabled={isSubmitting}

@@ -95,7 +95,7 @@ const Index = ({ checkout_id }: { checkout_id: string }) => {
           <div className="mx-auto mr-6 col-span-10 col-start-2 py-6 sm:py-12 lg:col-span-5 lg:col-start-2">
             <div className="ml-auto w-full">
               <h1 className="relative text-center text-2xl font-medium text-gray-700 sm:text-3xl">
-                Toggly
+                Toggly Checkout
               </h1>
               <div className="flex flex-wrap items-center justify-center text-xs">
                 <ul className="flex items-center gap-2">
@@ -126,12 +126,12 @@ const Index = ({ checkout_id }: { checkout_id: string }) => {
                 </ul>
               </div>
 
-              <CheckoutForm
+              {user && <CheckoutForm
                 user={user}
                 logout={logout}
                 addressList={addressList}
                 addAddress={addAddress}
-              />
+              />}
             </div>
           </div>
           {cart !== null && <OrderSummary {...cart} />}

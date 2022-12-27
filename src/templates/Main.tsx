@@ -32,14 +32,6 @@ const Main = (props: IMainProps) => (
                 About
               </Link>
             </li>
-            <li className="mr-6">
-              <Link
-                href="/blog/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                Blog
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
