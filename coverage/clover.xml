@@ -1,143 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671521739880" clover="3.2.0">
-  <project timestamp="1671521739880" name="All files">
-    <metrics statements="75" coveredstatements="20" conditionals="23" coveredconditionals="0" methods="33" coveredmethods="7" elements="131" coveredelements="27" complexity="0" loc="75" ncloc="75" packages="7" files="14" classes="14"/>
+<coverage generated="1672152568905" clover="3.2.0">
+  <project timestamp="1672152568905" name="All files">
+    <metrics statements="181" coveredstatements="143" conditionals="59" coveredconditionals="45" methods="46" coveredmethods="36" elements="286" coveredelements="224" complexity="0" loc="181" ncloc="181" packages="6" files="17" classes="17"/>
     <package name="components">
-      <metrics statements="9" coveredstatements="0" conditionals="17" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="form.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/components/form.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+      <metrics statements="26" coveredstatements="22" conditionals="32" coveredconditionals="23" methods="12" coveredmethods="10"/>
+      <file name="addresses.tsx" path="/Users/krishna/Downloads/dev-test/src/components/addresses.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="19" coveredconditionals="13" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="24" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
       </file>
-      <file name="loading.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/components/loading.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+      <file name="form.tsx" path="/Users/krishna/Downloads/dev-test/src/components/form.tsx">
+        <metrics statements="14" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
       </file>
-      <file name="order_summary.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/components/order_summary.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+      <file name="loading.tsx" path="/Users/krishna/Downloads/dev-test/src/components/loading.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="order_summary.tsx" path="/Users/krishna/Downloads/dev-test/src/components/order_summary.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
         <line num="70" count="0" type="stmt"/>
       </file>
-      <file name="order_summary_item.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/components/order_summary_item.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="order_summary_item.tsx" path="/Users/krishna/Downloads/dev-test/src/components/order_summary_item.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
     </package>
     <package name="layouts">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="Meta.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/layouts/Meta.tsx">
+      <file name="Meta.tsx" path="/Users/krishna/Downloads/dev-test/src/layouts/Meta.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="66" count="3" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="66" count="11" type="stmt"/>
       </file>
     </package>
     <package name="pages">
-      <metrics statements="33" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="3"/>
-      <file name="[slug].tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/pages/[slug].tsx">
-        <metrics statements="19" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="104" count="0" type="stmt"/>
+      <metrics statements="126" coveredstatements="105" conditionals="23" coveredconditionals="20" methods="23" coveredmethods="19"/>
+      <file name="[slug].tsx" path="/Users/krishna/Downloads/dev-test/src/pages/[slug].tsx">
+        <metrics statements="47" coveredstatements="34" conditionals="8" coveredconditionals="5" methods="8" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
       </file>
-      <file name="about.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/pages/about.tsx">
+      <file name="about.tsx" path="/Users/krishna/Downloads/dev-test/src/pages/about.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
       </file>
-      <file name="blog.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/pages/blog.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-      </file>
-      <file name="index.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/pages/index.tsx">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="forgotPassword.tsx" path="/Users/krishna/Downloads/dev-test/src/pages/forgotPassword.tsx">
+        <metrics statements="33" coveredstatements="29" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="186" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="36" type="stmt"/>
+        <line num="22" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="34" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="29" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
       </file>
-    </package>
-    <package name="pages.blog">
-      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-      <file name="[slug].tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/pages/blog/[slug].tsx">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
+      <file name="index.tsx" path="/Users/krishna/Downloads/dev-test/src/pages/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="login.tsx" path="/Users/krishna/Downloads/dev-test/src/pages/login.tsx">
+        <metrics statements="38" coveredstatements="34" conditionals="7" coveredconditionals="7" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="45" type="stmt"/>
+        <line num="22" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="43" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="38" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="45" type="stmt"/>
+        <line num="34" count="45" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
       </file>
     </package>
     <package name="providers">
       <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="ThemeProvider.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/providers/ThemeProvider.tsx">
+      <file name="ThemeProvider.tsx" path="/Users/krishna/Downloads/dev-test/src/providers/ThemeProvider.tsx">
         <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
       </file>
     </package>
     <package name="templates">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Main.tsx" path="/Users/ali/Sites/Next-js-Boilerplate/src/templates/Main.tsx">
+      <file name="Main.tsx" path="/Users/krishna/Downloads/dev-test/src/templates/Main.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="69" count="4" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="52" count="12" type="stmt"/>
       </file>
     </package>
     <package name="utils">
-      <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <file name="AppConfig.ts" path="/Users/ali/Sites/Next-js-Boilerplate/src/utils/AppConfig.ts">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+      <file name="AppConfig.ts" path="/Users/krishna/Downloads/dev-test/src/utils/AppConfig.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
+        <line num="3" count="31" type="stmt"/>
       </file>
-      <file name="product.ts" path="/Users/ali/Sites/Next-js-Boilerplate/src/utils/product.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="logger.ts" path="/Users/krishna/Downloads/dev-test/src/utils/logger.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+      <file name="product.ts" path="/Users/krishna/Downloads/dev-test/src/utils/product.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="string.ts" path="/Users/krishna/Downloads/dev-test/src/utils/string.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
       </file>
     </package>
   </project>
